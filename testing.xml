@@ -10,5 +10,6 @@
             <class name="tests.submitOrder"/>
         </classes>
     </test>
+    <test name="demonameforgitchange"/>
 
 </suite>
