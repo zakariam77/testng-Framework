@@ -10,10 +10,5 @@
             <class name="tests.submitOrder"/>
         </classes>
     </test>
-    <test name="demonameforgitchange">
-        <classes>
-            <class name="tests.BaseTest"></class>
-        </classes>
-    </test>
 
 </suite>
