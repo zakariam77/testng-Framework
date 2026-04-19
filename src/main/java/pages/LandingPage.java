@@ -21,8 +21,6 @@ public class LandingPage extends AbstractComponents {
     WebElement login_button;
     @FindBy(css=".error-message-container")
     WebElement errorMsg;
-    @FindBy(css="dummylocator")
-    WebElement dummyLocator;
 
     public void goTo(){
         driver.get(ConfigReader.getProperty("url"));
