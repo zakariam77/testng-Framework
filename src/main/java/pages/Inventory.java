@@ -22,7 +22,6 @@ public class Inventory extends AbstractComponents {
     By inventoryItemName = By.cssSelector(".inventory_item_name ");
     By inventoryHeader = By.cssSelector(".header_secondary_container");
     By addToCart = By.cssSelector(".btn_inventory");
-    By dummyField = By.cssSelector("fkf");
 
     public WebElement getProduct(String productName){
         WaitUtils.visibilityOfElementLocated(inventoryHeader);
