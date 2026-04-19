@@ -10,5 +10,10 @@
             <class name="tests.submitOrder"/>
         </classes>
     </test>
+    <test name = "signup">
+    <classes>
+        <class name="tests.submitOrder"/>
+    </classes>
+</test>
 
 </suite>
