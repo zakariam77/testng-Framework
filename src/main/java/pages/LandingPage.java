@@ -21,9 +21,8 @@ public class LandingPage extends AbstractComponents {
     WebElement login_button;
     @FindBy(css=".error-message-container")
     WebElement errorMsg;
-//dummy element for git practice pull and push
-    @FindBy(css=".error-message-container")
-    WebElement errorMsg1;
+    @FindBy(css="dummylocator")
+    WebElement dummyLocator;
 
     public void goTo(){
         driver.get(ConfigReader.getProperty("url"));
